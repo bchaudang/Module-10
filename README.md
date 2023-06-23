@@ -1,5 +1,4 @@
-# Module 10
-SQL Alchemy Challenge
+# Module 10: SQL Alchemy Challenge
 ======================================================
 ## Part 1: Analyze and Explore the Climate Data
 Precipitation Analysis:
