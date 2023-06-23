@@ -40,12 +40,12 @@ app = Flask(__name__)
 def welcome():
     ## set up welcome page, and links to routes for data
     return (
-        f"<h1>Welcome to Brett's API Page for Module 10 Challenge</h1>"
+        f"<h1>Module 10 Challenge</h1>"
         f"<h1>Part 2: Design Your Climate App</h1>"
         f"<h2>Here are the available routes:</h2>"
 
-        f"Precipitation analysis - retrieve only the last 12 months of data:<br/>" 
-        f"<ol><li><a href=http://127.0.0.1:5000/api/v1.0/precipitation>"
+        f"<ol>Precipitation analysis - retrieve only the last 12 months of data:<br/>" 
+        f"<li><a href=http://127.0.0.1:5000/api/v1.0/precipitation>"
         f"/api/v1.0/precipitation</a></li><br/><br/>"
 
         f"Stations Analysis - list of stations from the dataset:<br/>"
@@ -63,6 +63,8 @@ def welcome():
         f"List of the minimum, average, and maximum temperature for a specified start and end date <br/>"
         f"<li><a href=http://127.0.0.1:5000/api/v1.0/2016-08-23/2017-08-23>"
         f"/api/v1.0/start/end</a></li></ol><br/>"
+        f"Brettney Chau-Dang<br/>"
+
     )
 
 # Precipitation ANalysis:
