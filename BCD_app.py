@@ -125,7 +125,7 @@ def stations():
         stations_dict["elevation"] = elevation
         total_stations.append(stations_dict)
 
-    # Return the JSON representation of dictionary.
+    # Return the JSON representation of dictionary
     return jsonify(total_stations)
 
 # Temperature Analysis:
@@ -195,17 +195,17 @@ def temps_for_date_range(start, end):
 
     # Convert the results to a list
     temps_list = []
-    no_temperature_data = False
+    no_temps_data = False
     for min_temp, avg_temp, max_temp in temps_data:
         if min_temp == None or avg_temp == None or max_temp == None:
-            no_temperature_data = True
+            no_temps_data = True
         temps_list.append(min_temp)
         temps_list.append(avg_temp)
         temps_list.append(max_temp)
 
     # Return the JSON representation of dictionary
-    if no_temperature_data == True:
-        return f"No temperature data found for the given date range. Try another date range."
+    if no_temps_data == True:
+        return f"There is no temperature data found for the chosen date range"
     else:
         return jsonify(temps_list)
 
