@@ -41,8 +41,9 @@ The API portion of the assignment was quite difficult for me. I ran into a lot o
 
 -------
 ## Resources
-    - Class activities
+    - Class activities reference guide
     - Instructor, TA
     - askBCS Learning Assistants
     - Classmates
     - chatGPT&google for error resolutions
+    
